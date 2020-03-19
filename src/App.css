@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.register{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left:12px;
+margin-top:35px
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.userLabel{
+font-size: small;
+color:gray;
+margin-left:12px
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.userName{
+width:400px;
+height:42px ;
+border:1px gray solid;
+display: block;
+margin-left:12px;
+margin-bottom: 8px;
+margin-top: 5px;
+font-size:20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pwLabel{
+  font-size: small;
+  color:gray;
+  margin-left:12px;
 }
+.password{
+  width:400px;
+  height:42px ;
+  border:1px gray solid;
+  display: block;
+  margin-left:12px;
+  margin-bottom: 8px;
+  margin-top: 5px;
 
-.App-link {
-  color: #61dafb;
+  font-size:20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit{
+  width:403px;
+  height:48px ;
+  margin-bottom:48px;
+  margin-left:12px;
+  background-color: #0c9982;
+  color:white;
+  font-size:15px;
+}
+.keepSI{
+  margin:12px;
+}
+.registerform{
+  position: relative;
+  top:18vh;
+  left:43em;
+}
+.loginUser{
+  width:400px;
+  height:40px ;
+  margin-top:27px;
+  background-color:white;
+  color:rgb(20, 20, 20);
+  font-size:15px;
+  border:1px solid gray;
+  display: block;
+}
+.error {
+  color: tomato;
+  margin-bottom: 10px;
+  height: 8px;
+  font-size: 13px;
 }
